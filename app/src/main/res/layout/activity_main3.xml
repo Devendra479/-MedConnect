@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image_medical_logo"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="50dp" />
+
+    <!-- App Name -->
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edit_text"
+        android:layout_marginBottom="16dp"
+        android:inputType="text" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edit_text"
+        android:layout_marginBottom="24dp"
+        android:inputType="textPassword" />
+
+    <!-- Login Button -->
+
+
+    <!-- Forgot Password and Register Options -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:backgroundTint="#8FC349"
+            />
+    </LinearLayout>
+</LinearLayout>

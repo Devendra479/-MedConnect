@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Display selected image -->
+    <TextView
+
+        android:id="@+id/ti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Save report"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Select File Button -->
+
+    <Button
+        android:id="@+id/SelectDocument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Document"
+        android:backgroundTint="#8FC349"
+        android:layout_marginBottom="24dp"
+        android:textColor="@android:color/white"/>
+
+
+
+    <Button
+        android:id="@+id/Selectupload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload the document"
+        android:backgroundTint="#8FC349"
+        android:textColor="@android:color/white"/>
+
+
+    <Button
+        android:id="@+id/ViewReports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Reports"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#8FC349"
+        android:textColor="@android:color/white"/>
+
+
+
+
+    <Button
+        android:id="@+id/Logout454"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#8FC349"
+        android:minHeight="48dp"
+
+        android:text="Logout"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

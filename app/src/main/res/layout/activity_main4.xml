@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Display selected image -->
+    <TextView
+
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="MediCare Reminder"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <!-- Select File Button -->
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="Enter Reminder Title"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:background="@drawable/rounded_edit_text"/>
+
+    <Button
+        android:id="@+id/btnSelectDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:backgroundTint="#8FC349"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No date selected"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnSelectTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:backgroundTint="#8FC349"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No time selected"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnSetReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder"
+        android:backgroundTint="#8FC349"
+        android:textColor="@android:color/white" />
+    <!-- Display Reminder Details Here -->
+    <TextView
+        android:id="@+id/tvReminderDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reminder details will appear here."
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:background="@drawable/rounded_edit_text"/>
+
+
+    <Button
+        android:id="@+id/Docoument1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#8FC349"
+        android:minHeight="48dp"
+
+        android:text="Document"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

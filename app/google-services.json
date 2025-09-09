@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "184532440620",
+    "project_id": "login-a110c",
+    "storage_bucket": "login-a110c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184532440620:android:3c55716681eb9eb7a8e389",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2eoa7GuQro6cawsxt3zLUwfGlEE0GKUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
